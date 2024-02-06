@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+header {
+    height: 500px;
+    border: 2px solid red;
+    width: 100vw;
+}
+
+.background {
+    /* border: 2px solid blue; */
+    height: 500px;
+    background-image: url(https://wallpapers.com/images/hd/food-photography-background-kepimuxrxth4bjjw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainheading p {
+    font-size: 39px;
+    color: white;
+}
+
+.mainheading input[type="search"] {
+    height: 65px;
+    width: 543px;
+    padding-left: 205px;
+}
+
+.leftnav {
+    /* border: 2px solid blue; */
+    width: 500px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    color: white;
+}
+
+.leftnav a {
+    text-decoration: none;
+    position: relative;
+    top: -37px;
+    color: white;
+}
+
+.leftnav li {
+    list-style: none;
+    display: inline-block;
+
+    margin: 6px;
+    padding: 5px;
+    color: white;
+}
+
+.leftnav img {
+    height: 97px;
+    width: 120px;
+}
+
+.rightnav {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 59px;
+    right: 4%;
+    width: 650px;
+    color: white;
+
+}
+
+.rightnav a {
+    text-decoration: none;
+
+    width: 35px;
+    font-size: 21px;
+    color: white;
+
+
+}
+
+.rightnav li {
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    color: white;
+}
+
+.mainheading {
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 32%;
+    width: 656px;
+    text-align: center;
+
+    color: white;
+    left: 30%;
+
+
+
+}
+
+.mainheading h1 {
+    font-size: 78px;
+    font-style: italic;
+    margin: auto;
+    color: white;
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin-top: 8px;
+}
+
+.orderitems {
+    /* border: 2px solid blue; */
+    height: 360px;
+    width: 400px;
+}
+
+.order-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#item1 {
+    background: url(order1.webp);
+}
+
+#item2 {
+    background: url(order2.webp);
+}
+
+#item3 {
+    background: url(order4.webp);
+}
+
+.orderitems .orderdetail {
+    /* border: 2px solid green; */
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75%;
+    color: #e2f513;
+
+}
+
+.orderitems h3 {
+    font-size: 23px;
+    color: #e2f513;
+}
+
+.orderitems p {
+    font-size: 21px;
+}
+
+.collection {
+    /* border: 2px solid green; */
+    /* color: red; */
+    margin-top: 7px;
+}
+
+.collection details {
+    color: red;
+    display: inline-block;
+    margin-left: 518px;
+    font-size: 19px;
+}
+
+.collection h1 {
+    font-size: 30px;
+}
+
+.collection span {
+    font-size: 18pxpx;
+}
+
+.collectionlist {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+#collection2 {
+    width: 430px;
+}
+
+.collectionitems {
+    /* border: 2px solid red; */
+    height: 360px;
+    width: 400px;
+}
+
+#collection1 {
+    background: url(https://b.zmtcdn.com/data/pictures/4/18671714/730a84822572e47ad99a11eb50da923e.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*);
+}
+
+#collection2 {
+    background: url(https://salebhaiblog.files.wordpress.com/2016/12/winter-special-food.jpg);
+}
+
+#collection3 {
+    background: url(https://b.zmtcdn.com/data/pictures/5/20685115/80fa4a00fe0ac1e4e4461fc70f4df948.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*);
+}
+
+#collection4 {
+    background: url(https://b.zmtcdn.com/data/pictures/6/20068256/9cdfc69814202800021bf1483c7210e6.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*);
+}
+
+.collectioninfo {
+    /* border: 2px solid red; */
+    width: 300px;
+    margin-top: 85%;
+    color: white;
+}
+
+#collection2 .collectioninfo {
+    margin-top: 79%;
+}
+
+.popularlocalities {
+    /* border: 2px solid green; */
+    font-size: 31px;
+    width: 600px;
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.local1 {
+    border: 2px solid red;
+    color: blue;
+    width: 220px;
+    height: 50px;
+    font-size: 23px;
+
+    text-align: center;
+
+    padding-top: 6px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: inline-block;
+
+    margin-top: 43px;
+
+}
+
+.local2 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: blue;
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 25%;
+    /* margin-top: 43px; */
+}
+
+.local3 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: blue;
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin-right: 5px; */
+    margin-left: 21%;
+}
+
+.local4 {
+    border: 2px solid red;
+    color: blue;
+    width: 220px;
+    height: 50px;
+    font-size: 23px;
+
+    text-align: center;
+
+    padding-top: 6px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.local5 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: blue;
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 25%;
+}
+
+.local6 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: blue;
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin-right: 5px; */
+    margin-left: 21%;
+}
+
+.local7 {
+    border: 2px solid red;
+    color: blue;
+    width: 220px;
+    height: 50px;
+    font-size: 23px;
+
+    text-align: center;
+
+    padding-top: 6px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.local8 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: blue;
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 25%;
+}
+
+.local9 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: blue;
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin-right: 5px; */
+    margin-left: 21%;
+}
+
+.zomato-app {
+    /* border: 2px solid green; */
+    margin-top: 16px;
+
+    background-color: #FFFBF7;
+    margin: 100px auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.zomato-app img {
+
+    height: 450px;
+
+}
+
+.zomato-app .zom-app-right {
+    margin-left: 50px;
+    width: 450px;
+}
+
+.zomato-app .zom-app-right h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.zomato-app .zom-app-right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.zom-app-right .radio-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+.zom-app-right .radio-btn input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.zom-app-right .email-phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.zom-app-right input[type="text"] {
+    padding: 13px 12px;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    margin-right: 10px;
+}
+
+.zom-app-right a.btn-share {
+    color: #fff;
+    background-color: #ed5a6b;
+    border-radius: 8px;
+    padding: 13px 12px;
+    text-decoration: none;
+}
+
+.zom-app-right a.btn-share:hover {
+    background-color: #ec4654;
+}
+
+.zom-app-right .app-store {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.zom-app-right p.small-text {
+    color: #9c9c9c;
+    margin-top: 20px;
+}
+
+.zom-app-right .app-store .app-image {
+    margin-right: 20px;
+}
+
+.zom-app-right .app-store img {
+    width: 137px;
+    height: 40px;
+}
+
+.exploreoptions {
+    /* border: 2px solid blue; */
+    width: 600px;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 140px
+}
+
+.Exploreoptions {
+    border: 2px solid grey;
+    font-size: 20px;
+    padding: 18px;
+    margin-top: 10px;
+    width: 700px;
+    margin-left: 279px;
+    border-radius: 9px;
+
+}
+
+.Exploreoptions p {
+    display: inline-block;
+}
+
+.Exploreoptions .downarrow {
+    position: absolute;
+    right: 35%;
+    /* top: 521%; */
+}
+.footercontent ul li h4{
+    margin-left: 111px;
+}
+.footercontent ul li a{
+    margin-left: 131px;
+    text-decoration: none;
+}
+.footercontent{
+    /* border: 2px solid blue; */
+    background-color: beige;
+    
+}
+
+.footercontent .imagesicons{
+    /* border: 2px solid red; */
+    width: 500px;
+    margin-left: 807px;
+    
+    position: relative;
+    bottom: 101px;
+    
+}
+.footercontent  img
+{
+    margin-left: 67px;
+}
+.footercontent .copyright{
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+.footercontent ul li h4{
+    display: inline-block;
+}
+.ul1{
+    /* border: 2px solid green; */
+    width: 300px;
+    text-align: center;
+    margin-left: 7px;
+    margin-top: 10px;
+    display: inline-block;
+    display: inline-block;
+}
+.ul2{
+    /* border: 2px solid green; */
+    width: 300px;
+    text-align: center;
+    margin-left: 7px;
+    margin-top: 10px;
+    position: relative;
+    left: 306px;
+    bottom: 118px;
+}
+.ul2 li{
+    list-style: none;
+}
+.ul3{
+   /* border: 2px solid green; */
+   width: 300px;
+   text-align: center
+   margin-left: 10px;
+   margin-top: 12px; 
+   position: relative;
+    left: 593px;
+    bottom: 188px;
+
+}
+.ul3 li{
+    list-style: none;
+}
+.ul1 .ul2 .ul3{
+    margin-top: 14px;
+    
+}
+.footerbar{
+    /* border: 2px solid red; */
+    margin-top: 6px;
+    padding-left: 170px;
+    font-size: 26px;
+    font-style: italic;
+}
